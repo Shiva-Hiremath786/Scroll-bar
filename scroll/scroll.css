@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins' sans-serif;
+}
+      body{
+        margin:0;
+        padding:0;
+        background: rgb(240, 234, 235);
+      }
+      .scroll-bg{
+        background:rgb(219, 7, 7);
+        width:400px;
+        margin:10% auto;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .scroll-div{
+        width:400px;
+        background:rgb(221, 149, 193);
+        height: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+      .scroll-object{
+        color:rgb(11, 11, 12);
+        font-size:20px;
+        padding: 10px;
+
+      }
